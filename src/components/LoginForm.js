@@ -26,7 +26,7 @@ class LoginForm extends React.Component {
   
     render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSumbit={this.handleSubmit}>
         <div>
           <label>
             Username
@@ -36,7 +36,7 @@ class LoginForm extends React.Component {
         <div>
           <label>
             Password
-            <input id="password" name="password" type="password" onChange={this.handleChange} value={this.state.password}/>
+            <input id="password" name="password" type="password" onChange={this.handleChange} value={this.state.password} />
           </label>
         </div>
         <div>
