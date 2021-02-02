@@ -26,7 +26,7 @@ class LoginForm extends React.Component {
   
     render() {
     return (
-      <form onSumbit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit}>
         <div>
           <label>
             Username
